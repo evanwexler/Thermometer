@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2462C9818C6CF4800DBA699 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2462C9718C6CF4800DBA699 /* main.cpp */; };
+		F2462C9A18C6CF4800DBA699 /* old_thermo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2462C9918C6CF4800DBA699 /* old_thermo.1 */; };
+		F2462CA218C6CFCB00DBA699 /* thermometer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2462CA118C6CFCB00DBA699 /* thermometer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2462C9118C6CF4800DBA699 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F2462C9A18C6CF4800DBA699 /* old_thermo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F2462C9318C6CF4800DBA699 /* old-thermo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "old-thermo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2462C9718C6CF4800DBA699 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F2462C9918C6CF4800DBA699 /* old_thermo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = old_thermo.1; sourceTree = "<group>"; };
+		F2462CA018C6CF6600DBA699 /* thermometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thermometer.h; path = "old-thermo/thermometer.h"; sourceTree = "<group>"; };
+		F2462CA118C6CFCB00DBA699 /* thermometer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = thermometer.cpp; path = "old-thermo/thermometer.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2462C9018C6CF4800DBA699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2462C8818C6CF4800DBA699 = {
+			isa = PBXGroup;
+			children = (
+				F2462CA118C6CFCB00DBA699 /* thermometer.cpp */,
+				F2462CA018C6CF6600DBA699 /* thermometer.h */,
+				F2462C9618C6CF4800DBA699 /* old-thermo */,
+				F2462C9418C6CF4800DBA699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2462C9418C6CF4800DBA699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2462C9318C6CF4800DBA699 /* old-thermo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2462C9618C6CF4800DBA699 /* old-thermo */ = {
+			isa = PBXGroup;
+			children = (
+				F2462C9718C6CF4800DBA699 /* main.cpp */,
+				F2462C9918C6CF4800DBA699 /* old_thermo.1 */,
+			);
+			path = "old-thermo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2462C9218C6CF4800DBA699 /* old-thermo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2462C9D18C6CF4800DBA699 /* Build configuration list for PBXNativeTarget "old-thermo" */;
+			buildPhases = (
+				F2462C8F18C6CF4800DBA699 /* Sources */,
+				F2462C9018C6CF4800DBA699 /* Frameworks */,
+				F2462C9118C6CF4800DBA699 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "old-thermo";
+			productName = "old-thermo";
+			productReference = F2462C9318C6CF4800DBA699 /* old-thermo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2462C8A18C6CF4800DBA699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F2462C8D18C6CF4800DBA699 /* Build configuration list for PBXProject "old-thermo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2462C8818C6CF4800DBA699;
+			productRefGroup = F2462C9418C6CF4800DBA699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2462C9218C6CF4800DBA699 /* old-thermo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2462C8F18C6CF4800DBA699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2462C9818C6CF4800DBA699 /* main.cpp in Sources */,
+				F2462CA218C6CFCB00DBA699 /* thermometer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2462C9B18C6CF4800DBA699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F2462C9C18C6CF4800DBA699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F2462C9E18C6CF4800DBA699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2462C9F18C6CF4800DBA699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2462C8D18C6CF4800DBA699 /* Build configuration list for PBXProject "old-thermo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2462C9B18C6CF4800DBA699 /* Debug */,
+				F2462C9C18C6CF4800DBA699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2462C9D18C6CF4800DBA699 /* Build configuration list for PBXNativeTarget "old-thermo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2462C9E18C6CF4800DBA699 /* Debug */,
+				F2462C9F18C6CF4800DBA699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2462C8A18C6CF4800DBA699 /* Project object */;
+}
